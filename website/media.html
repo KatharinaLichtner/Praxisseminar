@@ -22,14 +22,57 @@
       </a>
     </div>
     <h1>Übersicht Mediensteuerung</h1>
-    <div class="sidenav" id="mySidenav">
-      <a href="#licht" class="active">Licht</a>
-      <a href="#beamer">Beamer</a>
-      <a href="#kamera">Kamera</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+
+    
+    <div class="container container-light">
+  <div class="row">
+    <div class="col">
+        <div class="sidenav" id="mySidenav">
+          <a href="#licht" class="active">Licht</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
     </div>
+    <div class="col-4">
+        <button type="button">Licht an</button>
+    </div>
+    <div class="col">
+        <button type="button">Licht aus</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+        <div class="sidenav" id="mySidenav">
+          <a href="#beamer">Beamer</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+    </div>
+      <div class="col-6">
+        <div class="slidecontainer">
+          <p>Lichtstärke regeln:</p>
+          <input type="range" min="1" max="100" value="50">
+
+        </div>
+      </div>
+        </div>
+    <div class="row">
+        <div class="col-4">
+        <div class="sidenav" id="mySidenav">
+          <a href="#kamera">Kamera</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        
+        </div>
+    </div>
+
+  </div>
     
 
     

@@ -66,16 +66,17 @@ nav.navbar.navbar-expand-lg.navbar-expand-sm.navbar-expand-md.navbar-light.bg-li
 .sidenav {
     overflow: hidden;
     background-color: #fff;
-    width: fit-content;
+    width: auto;
 
 }
 
 .sidenav a {
-  display: block;
-  color: #7D003C;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    display: block;
+    color: #7D003C;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10px;
 }
 
 .sidenav a:hover {
@@ -145,4 +146,39 @@ span.psw {
     .cancelbtn {
         width: 100%;
     }
+}
+
+.container.container-light{
+    margin-left: 0px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 50px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.slidecontainer.input {
+    width = 300px;
 }
